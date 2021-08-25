@@ -36,5 +36,6 @@ payload.age
 				<logger level="INFO" doc:name="Logger" doc:id="ef4c93a0-8169-4405-9d7b-90585e53a6ed" message="#[payload]"/>
 			</otherwise>
 		</choice>
+		<logger level="INFO" doc:name="Logger" doc:id="1613eb03-a9c2-4f00-b901-f8dec14d6a3b" message="#[payload]"/>
 	</flow>
 </mule>
